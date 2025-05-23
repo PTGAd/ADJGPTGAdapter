@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+
+target 'PTGJGAdapterDemo' do
+  use_frameworks!
+
+  pod 'ADJgSDK', '~> 3.9.9.12032'
+  pod 'ADJgSDK/ADJgSDKPlatforms/tianmu'
+  pod 'PTGAdFramework','~> 2.2.72'
+  pod 'MJRefresh'
+  pod 'ADJGPTGAdapter','1.0.0'
+end

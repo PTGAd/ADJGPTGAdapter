@@ -1,0 +1,66 @@
+PODS:
+  - ADJgKit (0.7.4.12031)
+  - ADJgLocationManager (0.2.1.01301)
+  - ADJgNetwork (0.2.1.06291):
+    - ADJgKit (~> 0.7.0)
+  - ADJgSDK (3.9.9.12032):
+    - ADJgKit (~> 0.7.4.12031)
+    - ADJgLocationManager (~> 0.2.1.01301)
+    - ADJgNetwork (~> 0.2.1.0)
+    - ADJgSDK/core (= 3.9.9.12032)
+  - ADJgSDK/ADJgSDKPlatforms/tianmu (3.9.9.12032):
+    - ADJgKit (~> 0.7.4.12031)
+    - ADJgLocationManager (~> 0.2.1.01301)
+    - ADJgNetwork (~> 0.2.1.0)
+    - ADJgSDK/core
+    - TianmuSDK (= 3.0.0.1)
+  - ADJgSDK/core (3.9.9.12032):
+    - ADJgKit (~> 0.7.4.12031)
+    - ADJgLocationManager (~> 0.2.1.01301)
+    - ADJgNetwork (~> 0.2.1.0)
+  - ADSuyiKit (0.7.6.02251)
+  - ADSuyiLocationManager (0.2.1.01301)
+  - ADSuyiNetwork (0.2.1.06291):
+    - ADSuyiKit (~> 0.7.0)
+  - MJRefresh (3.7.6)
+  - PTGAdFramework (2.2.72)
+  - TianmuSDK (3.0.0.1):
+    - ADSuyiKit (~> 0.7.6.02251)
+    - ADSuyiLocationManager (~> 0.2.1.01301)
+    - ADSuyiNetwork (~> 0.2.1.0)
+
+DEPENDENCIES:
+  - ADJgSDK (~> 3.9.9.12032)
+  - ADJgSDK/ADJgSDKPlatforms/tianmu
+  - MJRefresh
+  - PTGAdFramework (~> 2.2.72)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PTGAdFramework
+  trunk:
+    - ADJgKit
+    - ADJgLocationManager
+    - ADJgNetwork
+    - ADJgSDK
+    - ADSuyiKit
+    - ADSuyiLocationManager
+    - ADSuyiNetwork
+    - MJRefresh
+    - TianmuSDK
+
+SPEC CHECKSUMS:
+  ADJgKit: d3b9c8b7b9874e71afcd5ceb4cfc63e6633a9bbd
+  ADJgLocationManager: 6c5067915a915ac0d1d1a202afca0cf4cdec9923
+  ADJgNetwork: afd35c4e38f2f1747f76859d88d56f863a4be57b
+  ADJgSDK: 417d1cc9206e353064d69e0861e1af431fca53cd
+  ADSuyiKit: dd87ca1bae270d84b4a96a82727148e13062c4a3
+  ADSuyiLocationManager: 498421794430a1554dd85beac729221487e8394b
+  ADSuyiNetwork: e3cd29320932f9a6d523a561357a2f38de83189d
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  PTGAdFramework: d7c99b76ed6d76425e04b53e40caf45ba87167c6
+  TianmuSDK: 34533d93357e452afc2d3a7d10a83fd03a022d8d
+
+PODFILE CHECKSUM: 71446d483cd1d2be5a61514e19cbceb218047b0e
+
+COCOAPODS: 1.16.2

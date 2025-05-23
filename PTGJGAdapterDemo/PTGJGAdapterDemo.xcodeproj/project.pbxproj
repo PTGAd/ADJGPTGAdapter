@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D77E52FAC89A70DBB1A49 /* Pods_PTGJGAdapterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01108898280F7ECBC7F2706 /* Pods_PTGJGAdapterDemo.framework */; };
+		9E7EF3322DDDA1D50068D0DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3252DDDA1D50068D0DE /* AppDelegate.m */; };
+		9E7EF3332DDDA1D50068D0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF32A2DDDA1D50068D0DE /* main.m */; };
+		9E7EF3342DDDA1D50068D0DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF32E2DDDA1D50068D0DE /* SceneDelegate.m */; };
+		9E7EF3352DDDA1D50068D0DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3302DDDA1D50068D0DE /* ViewController.m */; };
+		9E7EF3362DDDA1D50068D0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF3262DDDA1D50068D0DE /* Assets.xcassets */; };
+		9E7EF3382DDDA1D50068D0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF3292DDDA1D50068D0DE /* LaunchScreen.storyboard */; };
+		9E7EF3392DDDA1D50068D0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF32C2DDDA1D50068D0DE /* Main.storyboard */; };
+		9E7EF34D2DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3482DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m */; };
+		9E7EF34E2DDDA4BF0068D0DE /* PTGJGAdapter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF34B2DDDA4BF0068D0DE /* PTGJGAdapter.docc */; };
+		9E7EF3582DDDAB650068D0DE /* ADJgRingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3532DDDAB650068D0DE /* ADJgRingProgressView.m */; };
+		9E7EF3592DDDAB650068D0DE /* AdJgSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3512DDDAB650068D0DE /* AdJgSplashViewController.m */; };
+		9E7EF35A2DDDAB650068D0DE /* ADJgSplashSkipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3552DDDAB650068D0DE /* ADJgSplashSkipView.m */; };
+		9E7EF35E2DDDACA80068D0DE /* SetConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF35D2DDDACA80068D0DE /* SetConfigManager.m */; };
+		9E7EF3612DDDACCF0068D0DE /* SetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3602DDDACCF0068D0DE /* SetTableViewController.m */; };
+		9E7EF3642DDDAD020068D0DE /* PlatformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3632DDDAD020068D0DE /* PlatformTableViewController.m */; };
+		9E7EF3672DDDAD140068D0DE /* SplashSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3662DDDAD140068D0DE /* SplashSetTableViewController.m */; };
+		9E7EF3702DDDAD460068D0DE /* BannerAdSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3692DDDAD460068D0DE /* BannerAdSetTableViewController.m */; };
+		9E7EF3712DDDAD460068D0DE /* NativeAdSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF36D2DDDAD460068D0DE /* NativeAdSetTableViewController.m */; };
+		9E7EF3722DDDAD460068D0DE /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF36F2DDDAD460068D0DE /* NavigationViewController.m */; };
+		9E7EF3732DDDAD460068D0DE /* InterstitialAdSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF36B2DDDAD460068D0DE /* InterstitialAdSetTableViewController.m */; };
+		9E7EF3762DDDAD500068D0DE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3752DDDAD500068D0DE /* UIView+Toast.m */; };
+		9E7EF3792DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3782DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m */; };
+		9E7EF37F2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF37E2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m */; };
+		9E7EF3822DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3812DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m */; };
+		9E7EF38B2DDDC3480068D0DE /* AdJgNativeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3872DDDC3480068D0DE /* AdJgNativeViewCell.m */; };
+		9E7EF38C2DDDC3480068D0DE /* AdJgNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3892DDDC3480068D0DE /* AdJgNativeViewController.m */; };
+		9E7EF3902DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF38F2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m */; };
+		9E7EF3942DDEB20C0068D0DE /* AdJgInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3922DDEB20C0068D0DE /* AdJgInterstitialViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E7EF3442DDDA4620068D0DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E7EF3072DDDA1CF0068D0DE /* PTGJGAdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTGJGAdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7EF3242DDDA1D50068D0DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E7EF3252DDDA1D50068D0DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E7EF3262DDDA1D50068D0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E7EF3272DDDA1D50068D0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7EF3282DDDA1D50068D0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E7EF32A2DDDA1D50068D0DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E7EF32B2DDDA1D50068D0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E7EF32D2DDDA1D50068D0DE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9E7EF32E2DDDA1D50068D0DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9E7EF32F2DDDA1D50068D0DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E7EF3302DDDA1D50068D0DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E7EF3472DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterInitialize.h; sourceTree = "<group>"; };
+		9E7EF3482DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterInitialize.m; sourceTree = "<group>"; };
+		9E7EF34A2DDDA4BF0068D0DE /* PTGJGAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTGJGAdapter.h; sourceTree = "<group>"; };
+		9E7EF34B2DDDA4BF0068D0DE /* PTGJGAdapter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PTGJGAdapter.docc; sourceTree = "<group>"; };
+		9E7EF3502DDDAB650068D0DE /* AdJgSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgSplashViewController.h; sourceTree = "<group>"; };
+		9E7EF3512DDDAB650068D0DE /* AdJgSplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgSplashViewController.m; sourceTree = "<group>"; };
+		9E7EF3522DDDAB650068D0DE /* ADJgRingProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgRingProgressView.h; sourceTree = "<group>"; };
+		9E7EF3532DDDAB650068D0DE /* ADJgRingProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgRingProgressView.m; sourceTree = "<group>"; };
+		9E7EF3542DDDAB650068D0DE /* ADJgSplashSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgSplashSkipView.h; sourceTree = "<group>"; };
+		9E7EF3552DDDAB650068D0DE /* ADJgSplashSkipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgSplashSkipView.m; sourceTree = "<group>"; };
+		9E7EF35C2DDDACA80068D0DE /* SetConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetConfigManager.h; sourceTree = "<group>"; };
+		9E7EF35D2DDDACA80068D0DE /* SetConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetConfigManager.m; sourceTree = "<group>"; };
+		9E7EF35F2DDDACCF0068D0DE /* SetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetTableViewController.h; sourceTree = "<group>"; };
+		9E7EF3602DDDACCF0068D0DE /* SetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetTableViewController.m; sourceTree = "<group>"; };
+		9E7EF3622DDDAD020068D0DE /* PlatformTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformTableViewController.h; sourceTree = "<group>"; };
+		9E7EF3632DDDAD020068D0DE /* PlatformTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlatformTableViewController.m; sourceTree = "<group>"; };
+		9E7EF3652DDDAD140068D0DE /* SplashSetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashSetTableViewController.h; sourceTree = "<group>"; };
+		9E7EF3662DDDAD140068D0DE /* SplashSetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashSetTableViewController.m; sourceTree = "<group>"; };
+		9E7EF3682DDDAD460068D0DE /* BannerAdSetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerAdSetTableViewController.h; sourceTree = "<group>"; };
+		9E7EF3692DDDAD460068D0DE /* BannerAdSetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerAdSetTableViewController.m; sourceTree = "<group>"; };
+		9E7EF36A2DDDAD460068D0DE /* InterstitialAdSetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialAdSetTableViewController.h; sourceTree = "<group>"; };
+		9E7EF36B2DDDAD460068D0DE /* InterstitialAdSetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdSetTableViewController.m; sourceTree = "<group>"; };
+		9E7EF36C2DDDAD460068D0DE /* NativeAdSetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAdSetTableViewController.h; sourceTree = "<group>"; };
+		9E7EF36D2DDDAD460068D0DE /* NativeAdSetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAdSetTableViewController.m; sourceTree = "<group>"; };
+		9E7EF36E2DDDAD460068D0DE /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		9E7EF36F2DDDAD460068D0DE /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		9E7EF3742DDDAD500068D0DE /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		9E7EF3752DDDAD500068D0DE /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		9E7EF3772DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterSplashAd.h; sourceTree = "<group>"; };
+		9E7EF3782DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterSplashAd.m; sourceTree = "<group>"; };
+		9E7EF37D2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterNativeExpressAd.h; sourceTree = "<group>"; };
+		9E7EF37E2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterNativeExpressAd.m; sourceTree = "<group>"; };
+		9E7EF3802DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterNativeExpressAdView.h; sourceTree = "<group>"; };
+		9E7EF3812DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterNativeExpressAdView.m; sourceTree = "<group>"; };
+		9E7EF3862DDDC3480068D0DE /* AdJgNativeViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgNativeViewCell.h; sourceTree = "<group>"; };
+		9E7EF3872DDDC3480068D0DE /* AdJgNativeViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgNativeViewCell.m; sourceTree = "<group>"; };
+		9E7EF3882DDDC3480068D0DE /* AdJgNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgNativeViewController.h; sourceTree = "<group>"; };
+		9E7EF3892DDDC3480068D0DE /* AdJgNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgNativeViewController.m; sourceTree = "<group>"; };
+		9E7EF38E2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterInterstitalAd.h; sourceTree = "<group>"; };
+		9E7EF38F2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterInterstitalAd.m; sourceTree = "<group>"; };
+		9E7EF3912DDEB20C0068D0DE /* AdJgInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgInterstitialViewController.h; sourceTree = "<group>"; };
+		9E7EF3922DDEB20C0068D0DE /* AdJgInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgInterstitialViewController.m; sourceTree = "<group>"; };
+		BF0A954D7E27E32BC89AD3ED /* Pods-PTGJGAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTGJGAdapterDemo.debug.xcconfig"; path = "Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E01108898280F7ECBC7F2706 /* Pods_PTGJGAdapterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTGJGAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32B9F469342EED8C0E5BEAF /* Pods-PTGJGAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTGJGAdapterDemo.release.xcconfig"; path = "Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E7EF3042DDDA1CF0068D0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D77E52FAC89A70DBB1A49 /* Pods_PTGJGAdapterDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B76F6060383731E8198B0EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E01108898280F7ECBC7F2706 /* Pods_PTGJGAdapterDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C862268937A37C53FD802B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A954D7E27E32BC89AD3ED /* Pods-PTGJGAdapterDemo.debug.xcconfig */,
+				E32B9F469342EED8C0E5BEAF /* Pods-PTGJGAdapterDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E7EF2FE2DDDA1CF0068D0DE = {
+			isa = PBXGroup;
+			children = (
+				9E7EF34C2DDDA4BF0068D0DE /* PTGJGAdapter */,
+				9E7EF3312DDDA1D50068D0DE /* PTGJGAdapterDemo */,
+				9E7EF3082DDDA1CF0068D0DE /* Products */,
+				1C862268937A37C53FD802B8 /* Pods */,
+				0B76F6060383731E8198B0EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E7EF3082DDDA1CF0068D0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3072DDDA1CF0068D0DE /* PTGJGAdapterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E7EF3312DDDA1D50068D0DE /* PTGJGAdapterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3932DDEB20C0068D0DE /* InterstitialAd */,
+				9E7EF38A2DDDC3480068D0DE /* NativeAd */,
+				9E7EF35B2DDDAC950068D0DE /* Config */,
+				9E7EF3572DDDAB650068D0DE /* SplashAd */,
+				9E7EF3242DDDA1D50068D0DE /* AppDelegate.h */,
+				9E7EF3252DDDA1D50068D0DE /* AppDelegate.m */,
+				9E7EF3262DDDA1D50068D0DE /* Assets.xcassets */,
+				9E7EF3272DDDA1D50068D0DE /* Info.plist */,
+				9E7EF3292DDDA1D50068D0DE /* LaunchScreen.storyboard */,
+				9E7EF32A2DDDA1D50068D0DE /* main.m */,
+				9E7EF32C2DDDA1D50068D0DE /* Main.storyboard */,
+				9E7EF32D2DDDA1D50068D0DE /* SceneDelegate.h */,
+				9E7EF32E2DDDA1D50068D0DE /* SceneDelegate.m */,
+				9E7EF32F2DDDA1D50068D0DE /* ViewController.h */,
+				9E7EF3302DDDA1D50068D0DE /* ViewController.m */,
+			);
+			path = PTGJGAdapterDemo;
+			sourceTree = "<group>";
+		};
+		9E7EF3492DDDA4BF0068D0DE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3472DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.h */,
+				9E7EF3482DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9E7EF34C2DDDA4BF0068D0DE /* PTGJGAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF38D2DDEAF0E0068D0DE /* Interstitial */,
+				9E7EF37A2DDDBA820068D0DE /* Native */,
+				9E7EF34F2DDDA9DA0068D0DE /* Splash */,
+				9E7EF3492DDDA4BF0068D0DE /* Config */,
+				9E7EF34A2DDDA4BF0068D0DE /* PTGJGAdapter.h */,
+				9E7EF34B2DDDA4BF0068D0DE /* PTGJGAdapter.docc */,
+			);
+			name = PTGJGAdapter;
+			path = ../PTGJGAdapter/PTGJGAdapter;
+			sourceTree = SOURCE_ROOT;
+		};
+		9E7EF34F2DDDA9DA0068D0DE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3772DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.h */,
+				9E7EF3782DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		9E7EF3562DDDAB650068D0DE /* skipView */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3522DDDAB650068D0DE /* ADJgRingProgressView.h */,
+				9E7EF3532DDDAB650068D0DE /* ADJgRingProgressView.m */,
+				9E7EF3542DDDAB650068D0DE /* ADJgSplashSkipView.h */,
+				9E7EF3552DDDAB650068D0DE /* ADJgSplashSkipView.m */,
+			);
+			path = skipView;
+			sourceTree = "<group>";
+		};
+		9E7EF3572DDDAB650068D0DE /* SplashAd */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3502DDDAB650068D0DE /* AdJgSplashViewController.h */,
+				9E7EF3512DDDAB650068D0DE /* AdJgSplashViewController.m */,
+				9E7EF3562DDDAB650068D0DE /* skipView */,
+			);
+			path = SplashAd;
+			sourceTree = "<group>";
+		};
+		9E7EF35B2DDDAC950068D0DE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3742DDDAD500068D0DE /* UIView+Toast.h */,
+				9E7EF3752DDDAD500068D0DE /* UIView+Toast.m */,
+				9E7EF3682DDDAD460068D0DE /* BannerAdSetTableViewController.h */,
+				9E7EF3692DDDAD460068D0DE /* BannerAdSetTableViewController.m */,
+				9E7EF36A2DDDAD460068D0DE /* InterstitialAdSetTableViewController.h */,
+				9E7EF36B2DDDAD460068D0DE /* InterstitialAdSetTableViewController.m */,
+				9E7EF36C2DDDAD460068D0DE /* NativeAdSetTableViewController.h */,
+				9E7EF36D2DDDAD460068D0DE /* NativeAdSetTableViewController.m */,
+				9E7EF36E2DDDAD460068D0DE /* NavigationViewController.h */,
+				9E7EF36F2DDDAD460068D0DE /* NavigationViewController.m */,
+				9E7EF3652DDDAD140068D0DE /* SplashSetTableViewController.h */,
+				9E7EF3662DDDAD140068D0DE /* SplashSetTableViewController.m */,
+				9E7EF3622DDDAD020068D0DE /* PlatformTableViewController.h */,
+				9E7EF3632DDDAD020068D0DE /* PlatformTableViewController.m */,
+				9E7EF35F2DDDACCF0068D0DE /* SetTableViewController.h */,
+				9E7EF3602DDDACCF0068D0DE /* SetTableViewController.m */,
+				9E7EF35C2DDDACA80068D0DE /* SetConfigManager.h */,
+				9E7EF35D2DDDACA80068D0DE /* SetConfigManager.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9E7EF37A2DDDBA820068D0DE /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF37D2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.h */,
+				9E7EF37E2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m */,
+				9E7EF3802DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.h */,
+				9E7EF3812DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		9E7EF38A2DDDC3480068D0DE /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3862DDDC3480068D0DE /* AdJgNativeViewCell.h */,
+				9E7EF3872DDDC3480068D0DE /* AdJgNativeViewCell.m */,
+				9E7EF3882DDDC3480068D0DE /* AdJgNativeViewController.h */,
+				9E7EF3892DDDC3480068D0DE /* AdJgNativeViewController.m */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		9E7EF38D2DDEAF0E0068D0DE /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF38E2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.h */,
+				9E7EF38F2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		9E7EF3932DDEB20C0068D0DE /* InterstitialAd */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EF3912DDEB20C0068D0DE /* AdJgInterstitialViewController.h */,
+				9E7EF3922DDEB20C0068D0DE /* AdJgInterstitialViewController.m */,
+			);
+			path = InterstitialAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E7EF3062DDDA1CF0068D0DE /* PTGJGAdapterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7EF31F2DDDA1D00068D0DE /* Build configuration list for PBXNativeTarget "PTGJGAdapterDemo" */;
+			buildPhases = (
+				9C7AC1B0864A74B33665D822 /* [CP] Check Pods Manifest.lock */,
+				9E7EF3032DDDA1CF0068D0DE /* Sources */,
+				9E7EF3042DDDA1CF0068D0DE /* Frameworks */,
+				9E7EF3052DDDA1CF0068D0DE /* Resources */,
+				421B385F294A5D4AE1562F24 /* [CP] Copy Pods Resources */,
+				9E7EF3442DDDA4620068D0DE /* Embed Frameworks */,
+				F0CFC9F17305E05F84002558 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTGJGAdapterDemo;
+			productName = PTGJGAdapterDemo;
+			productReference = 9E7EF3072DDDA1CF0068D0DE /* PTGJGAdapterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E7EF2FF2DDDA1CF0068D0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9E7EF3062DDDA1CF0068D0DE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 9E7EF3022DDDA1CF0068D0DE /* Build configuration list for PBXProject "PTGJGAdapterDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E7EF2FE2DDDA1CF0068D0DE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9E7EF3082DDDA1CF0068D0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E7EF3062DDDA1CF0068D0DE /* PTGJGAdapterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E7EF3052DDDA1CF0068D0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7EF3362DDDA1D50068D0DE /* Assets.xcassets in Resources */,
+				9E7EF3382DDDA1D50068D0DE /* LaunchScreen.storyboard in Resources */,
+				9E7EF3392DDDA1D50068D0DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		421B385F294A5D4AE1562F24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7AC1B0864A74B33665D822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PTGJGAdapterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CFC9F17305E05F84002558 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E7EF3032DDDA1CF0068D0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7EF38B2DDDC3480068D0DE /* AdJgNativeViewCell.m in Sources */,
+				9E7EF38C2DDDC3480068D0DE /* AdJgNativeViewController.m in Sources */,
+				9E7EF3762DDDAD500068D0DE /* UIView+Toast.m in Sources */,
+				9E7EF3612DDDACCF0068D0DE /* SetTableViewController.m in Sources */,
+				9E7EF3702DDDAD460068D0DE /* BannerAdSetTableViewController.m in Sources */,
+				9E7EF37F2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m in Sources */,
+				9E7EF3822DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m in Sources */,
+				9E7EF3712DDDAD460068D0DE /* NativeAdSetTableViewController.m in Sources */,
+				9E7EF3722DDDAD460068D0DE /* NavigationViewController.m in Sources */,
+				9E7EF3732DDDAD460068D0DE /* InterstitialAdSetTableViewController.m in Sources */,
+				9E7EF34D2DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m in Sources */,
+				9E7EF34E2DDDA4BF0068D0DE /* PTGJGAdapter.docc in Sources */,
+				9E7EF3322DDDA1D50068D0DE /* AppDelegate.m in Sources */,
+				9E7EF3942DDEB20C0068D0DE /* AdJgInterstitialViewController.m in Sources */,
+				9E7EF3582DDDAB650068D0DE /* ADJgRingProgressView.m in Sources */,
+				9E7EF35E2DDDACA80068D0DE /* SetConfigManager.m in Sources */,
+				9E7EF3592DDDAB650068D0DE /* AdJgSplashViewController.m in Sources */,
+				9E7EF35A2DDDAB650068D0DE /* ADJgSplashSkipView.m in Sources */,
+				9E7EF3792DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m in Sources */,
+				9E7EF3672DDDAD140068D0DE /* SplashSetTableViewController.m in Sources */,
+				9E7EF3902DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m in Sources */,
+				9E7EF3642DDDAD020068D0DE /* PlatformTableViewController.m in Sources */,
+				9E7EF3332DDDA1D50068D0DE /* main.m in Sources */,
+				9E7EF3342DDDA1D50068D0DE /* SceneDelegate.m in Sources */,
+				9E7EF3352DDDA1D50068D0DE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E7EF3292DDDA1D50068D0DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E7EF3282DDDA1D50068D0DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9E7EF32C2DDDA1D50068D0DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E7EF32B2DDDA1D50068D0DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E7EF3202DDDA1D00068D0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0A954D7E27E32BC89AD3ED /* Pods-PTGJGAdapterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5SRZ3HM32;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PTGJGAdapterDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiYueTest.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E7EF3212DDDA1D00068D0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32B9F469342EED8C0E5BEAF /* Pods-PTGJGAdapterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5SRZ3HM32;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PTGJGAdapterDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiYueTest.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E7EF3222DDDA1D00068D0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E7EF3232DDDA1D00068D0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E7EF3022DDDA1CF0068D0DE /* Build configuration list for PBXProject "PTGJGAdapterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7EF3222DDDA1D00068D0DE /* Debug */,
+				9E7EF3232DDDA1D00068D0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7EF31F2DDDA1D00068D0DE /* Build configuration list for PBXNativeTarget "PTGJGAdapterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7EF3202DDDA1D00068D0DE /* Debug */,
+				9E7EF3212DDDA1D00068D0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E7EF2FF2DDDA1CF0068D0DE /* Project object */;
+}

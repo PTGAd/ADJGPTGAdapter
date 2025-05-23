@@ -1,0 +1,6 @@
+framework module PTGJGAdapter {
+  umbrella header "PTGJGAdapter.h"
+  export *
+
+  module * { export * }
+}
