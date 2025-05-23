@@ -15,8 +15,6 @@
 		9E7EF3362DDDA1D50068D0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF3262DDDA1D50068D0DE /* Assets.xcassets */; };
 		9E7EF3382DDDA1D50068D0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF3292DDDA1D50068D0DE /* LaunchScreen.storyboard */; };
 		9E7EF3392DDDA1D50068D0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF32C2DDDA1D50068D0DE /* Main.storyboard */; };
-		9E7EF34D2DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3482DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m */; };
-		9E7EF34E2DDDA4BF0068D0DE /* PTGJGAdapter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF34B2DDDA4BF0068D0DE /* PTGJGAdapter.docc */; };
 		9E7EF3582DDDAB650068D0DE /* ADJgRingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3532DDDAB650068D0DE /* ADJgRingProgressView.m */; };
 		9E7EF3592DDDAB650068D0DE /* AdJgSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3512DDDAB650068D0DE /* AdJgSplashViewController.m */; };
 		9E7EF35A2DDDAB650068D0DE /* ADJgSplashSkipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3552DDDAB650068D0DE /* ADJgSplashSkipView.m */; };
@@ -29,12 +27,8 @@
 		9E7EF3722DDDAD460068D0DE /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF36F2DDDAD460068D0DE /* NavigationViewController.m */; };
 		9E7EF3732DDDAD460068D0DE /* InterstitialAdSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF36B2DDDAD460068D0DE /* InterstitialAdSetTableViewController.m */; };
 		9E7EF3762DDDAD500068D0DE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3752DDDAD500068D0DE /* UIView+Toast.m */; };
-		9E7EF3792DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3782DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m */; };
-		9E7EF37F2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF37E2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m */; };
-		9E7EF3822DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3812DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m */; };
 		9E7EF38B2DDDC3480068D0DE /* AdJgNativeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3872DDDC3480068D0DE /* AdJgNativeViewCell.m */; };
 		9E7EF38C2DDDC3480068D0DE /* AdJgNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3892DDDC3480068D0DE /* AdJgNativeViewController.m */; };
-		9E7EF3902DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF38F2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m */; };
 		9E7EF3942DDEB20C0068D0DE /* AdJgInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3922DDEB20C0068D0DE /* AdJgInterstitialViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -64,10 +58,6 @@
 		9E7EF32E2DDDA1D50068D0DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9E7EF32F2DDDA1D50068D0DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9E7EF3302DDDA1D50068D0DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E7EF3472DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterInitialize.h; sourceTree = "<group>"; };
-		9E7EF3482DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterInitialize.m; sourceTree = "<group>"; };
-		9E7EF34A2DDDA4BF0068D0DE /* PTGJGAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTGJGAdapter.h; sourceTree = "<group>"; };
-		9E7EF34B2DDDA4BF0068D0DE /* PTGJGAdapter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PTGJGAdapter.docc; sourceTree = "<group>"; };
 		9E7EF3502DDDAB650068D0DE /* AdJgSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgSplashViewController.h; sourceTree = "<group>"; };
 		9E7EF3512DDDAB650068D0DE /* AdJgSplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgSplashViewController.m; sourceTree = "<group>"; };
 		9E7EF3522DDDAB650068D0DE /* ADJgRingProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgRingProgressView.h; sourceTree = "<group>"; };
@@ -92,18 +82,10 @@
 		9E7EF36F2DDDAD460068D0DE /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		9E7EF3742DDDAD500068D0DE /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		9E7EF3752DDDAD500068D0DE /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
-		9E7EF3772DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterSplashAd.h; sourceTree = "<group>"; };
-		9E7EF3782DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterSplashAd.m; sourceTree = "<group>"; };
-		9E7EF37D2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterNativeExpressAd.h; sourceTree = "<group>"; };
-		9E7EF37E2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterNativeExpressAd.m; sourceTree = "<group>"; };
-		9E7EF3802DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterNativeExpressAdView.h; sourceTree = "<group>"; };
-		9E7EF3812DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterNativeExpressAdView.m; sourceTree = "<group>"; };
 		9E7EF3862DDDC3480068D0DE /* AdJgNativeViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgNativeViewCell.h; sourceTree = "<group>"; };
 		9E7EF3872DDDC3480068D0DE /* AdJgNativeViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgNativeViewCell.m; sourceTree = "<group>"; };
 		9E7EF3882DDDC3480068D0DE /* AdJgNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgNativeViewController.h; sourceTree = "<group>"; };
 		9E7EF3892DDDC3480068D0DE /* AdJgNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgNativeViewController.m; sourceTree = "<group>"; };
-		9E7EF38E2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADJgPTGAdapterInterstitalAd.h; sourceTree = "<group>"; };
-		9E7EF38F2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADJgPTGAdapterInterstitalAd.m; sourceTree = "<group>"; };
 		9E7EF3912DDEB20C0068D0DE /* AdJgInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdJgInterstitialViewController.h; sourceTree = "<group>"; };
 		9E7EF3922DDEB20C0068D0DE /* AdJgInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdJgInterstitialViewController.m; sourceTree = "<group>"; };
 		BF0A954D7E27E32BC89AD3ED /* Pods-PTGJGAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTGJGAdapterDemo.debug.xcconfig"; path = "Target Support Files/Pods-PTGJGAdapterDemo/Pods-PTGJGAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +125,6 @@
 		9E7EF2FE2DDDA1CF0068D0DE = {
 			isa = PBXGroup;
 			children = (
-				9E7EF34C2DDDA4BF0068D0DE /* PTGJGAdapter */,
 				9E7EF3312DDDA1D50068D0DE /* PTGJGAdapterDemo */,
 				9E7EF3082DDDA1CF0068D0DE /* Products */,
 				1C862268937A37C53FD802B8 /* Pods */,
@@ -179,38 +160,6 @@
 				9E7EF3302DDDA1D50068D0DE /* ViewController.m */,
 			);
 			path = PTGJGAdapterDemo;
-			sourceTree = "<group>";
-		};
-		9E7EF3492DDDA4BF0068D0DE /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				9E7EF3472DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.h */,
-				9E7EF3482DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		9E7EF34C2DDDA4BF0068D0DE /* PTGJGAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				9E7EF38D2DDEAF0E0068D0DE /* Interstitial */,
-				9E7EF37A2DDDBA820068D0DE /* Native */,
-				9E7EF34F2DDDA9DA0068D0DE /* Splash */,
-				9E7EF3492DDDA4BF0068D0DE /* Config */,
-				9E7EF34A2DDDA4BF0068D0DE /* PTGJGAdapter.h */,
-				9E7EF34B2DDDA4BF0068D0DE /* PTGJGAdapter.docc */,
-			);
-			name = PTGJGAdapter;
-			path = ../PTGJGAdapter/PTGJGAdapter;
-			sourceTree = SOURCE_ROOT;
-		};
-		9E7EF34F2DDDA9DA0068D0DE /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				9E7EF3772DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.h */,
-				9E7EF3782DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m */,
-			);
-			path = Splash;
 			sourceTree = "<group>";
 		};
 		9E7EF3562DDDAB650068D0DE /* skipView */ = {
@@ -259,17 +208,6 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
-		9E7EF37A2DDDBA820068D0DE /* Native */ = {
-			isa = PBXGroup;
-			children = (
-				9E7EF37D2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.h */,
-				9E7EF37E2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m */,
-				9E7EF3802DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.h */,
-				9E7EF3812DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m */,
-			);
-			path = Native;
-			sourceTree = "<group>";
-		};
 		9E7EF38A2DDDC3480068D0DE /* NativeAd */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,15 +217,6 @@
 				9E7EF3892DDDC3480068D0DE /* AdJgNativeViewController.m */,
 			);
 			path = NativeAd;
-			sourceTree = "<group>";
-		};
-		9E7EF38D2DDEAF0E0068D0DE /* Interstitial */ = {
-			isa = PBXGroup;
-			children = (
-				9E7EF38E2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.h */,
-				9E7EF38F2DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m */,
-			);
-			path = Interstitial;
 			sourceTree = "<group>";
 		};
 		9E7EF3932DDEB20C0068D0DE /* InterstitialAd */ = {
@@ -438,22 +367,16 @@
 				9E7EF3762DDDAD500068D0DE /* UIView+Toast.m in Sources */,
 				9E7EF3612DDDACCF0068D0DE /* SetTableViewController.m in Sources */,
 				9E7EF3702DDDAD460068D0DE /* BannerAdSetTableViewController.m in Sources */,
-				9E7EF37F2DDDBB450068D0DE /* ADJgPTGAdapterNativeExpressAd.m in Sources */,
-				9E7EF3822DDDBBEE0068D0DE /* ADJgPTGAdapterNativeExpressAdView.m in Sources */,
 				9E7EF3712DDDAD460068D0DE /* NativeAdSetTableViewController.m in Sources */,
 				9E7EF3722DDDAD460068D0DE /* NavigationViewController.m in Sources */,
 				9E7EF3732DDDAD460068D0DE /* InterstitialAdSetTableViewController.m in Sources */,
-				9E7EF34D2DDDA4BF0068D0DE /* ADJgPTGAdapterInitialize.m in Sources */,
-				9E7EF34E2DDDA4BF0068D0DE /* PTGJGAdapter.docc in Sources */,
 				9E7EF3322DDDA1D50068D0DE /* AppDelegate.m in Sources */,
 				9E7EF3942DDEB20C0068D0DE /* AdJgInterstitialViewController.m in Sources */,
 				9E7EF3582DDDAB650068D0DE /* ADJgRingProgressView.m in Sources */,
 				9E7EF35E2DDDACA80068D0DE /* SetConfigManager.m in Sources */,
 				9E7EF3592DDDAB650068D0DE /* AdJgSplashViewController.m in Sources */,
 				9E7EF35A2DDDAB650068D0DE /* ADJgSplashSkipView.m in Sources */,
-				9E7EF3792DDDAEBF0068D0DE /* ADJgPTGAdapterSplashAd.m in Sources */,
 				9E7EF3672DDDAD140068D0DE /* SplashSetTableViewController.m in Sources */,
-				9E7EF3902DDEAFF40068D0DE /* ADJgPTGAdapterInterstitalAd.m in Sources */,
 				9E7EF3642DDDAD020068D0DE /* PlatformTableViewController.m in Sources */,
 				9E7EF3332DDDA1D50068D0DE /* main.m in Sources */,
 				9E7EF3342DDDA1D50068D0DE /* SceneDelegate.m in Sources */,
@@ -493,6 +416,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X5SRZ3HM32;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PTGJGAdapterDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PTGJGAdapterDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -527,6 +454,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X5SRZ3HM32;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PTGJGAdapterDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PTGJGAdapterDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
