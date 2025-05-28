@@ -24,7 +24,7 @@ PODS:
   - ADSuyiNetwork (0.2.1.06291):
     - ADSuyiKit (~> 0.7.0)
   - MJRefresh (3.7.9)
-  - PTGAdFramework (2.2.72)
+  - PTGAdFramework (2.2.73)
   - TianmuSDK (3.0.0.1):
     - ADSuyiKit (~> 0.7.6.02251)
     - ADSuyiLocationManager (~> 0.2.1.01301)
@@ -35,7 +35,7 @@ DEPENDENCIES:
   - ADJgSDK (~> 3.9.9.12032)
   - ADJgSDK/ADJgSDKPlatforms/tianmu
   - MJRefresh
-  - PTGAdFramework (~> 2.2.72)
+  - PTGAdFramework (~> 2.2.73)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -61,9 +61,9 @@ SPEC CHECKSUMS:
   ADSuyiLocationManager: 498421794430a1554dd85beac729221487e8394b
   ADSuyiNetwork: e3cd29320932f9a6d523a561357a2f38de83189d
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
-  PTGAdFramework: d7c99b76ed6d76425e04b53e40caf45ba87167c6
+  PTGAdFramework: 822cdd66b96ccd6d18ebab5fa95df77a1af9be09
   TianmuSDK: 34533d93357e452afc2d3a7d10a83fd03a022d8d
 
-PODFILE CHECKSUM: 6fb718c467bc04c9db77ddaba2683fd2507a44f0
+PODFILE CHECKSUM: c1aab39a1f55d92514de99aa4f54e01a04ccce10
 
 COCOAPODS: 1.16.2

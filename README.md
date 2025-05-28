@@ -6,7 +6,7 @@
 ```shell
   pod 'ADJgSDK', '~> 3.9.9.12032'
   pod 'ADJgSDK/ADJgSDKPlatforms/tianmu'
-  pod 'PTGAdFramework','~> 2.2.72'
+  pod 'PTGAdFramework','~> 2.2.73'
   pod 'ADJGPTGAdapter','1.0.0'
 ```
 

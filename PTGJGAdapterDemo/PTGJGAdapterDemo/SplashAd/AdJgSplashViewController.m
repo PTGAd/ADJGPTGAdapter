@@ -55,7 +55,7 @@
     UIImageView *logoImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"ADJg_Logo"]];
     logoImageView.frame = CGRectMake(([UIScreen mainScreen].bounds.size.width-135)/2, (bottomViewHeight-46)/2, 135, 46);
     [bottomView addSubview:logoImageView];
-    [self.splashAd loadAndShowInWindow:[UIApplication sharedApplication].keyWindow withBottomView:bottomView];
+    [self.splashAd loadAndShowInWindow:[UIApplication sharedApplication].keyWindow withBottomView:nil];
 }
 
 #pragma mark - ADJgSDKSplashAdDelegate
